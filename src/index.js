@@ -6,8 +6,7 @@ import "./styles.css";
 function App() {
   return (
     <div className="App">
-      <h1>Youtube App 2</h1>
-      <h2>Start editing to see some magic happen!</h2>
+      <h1>Youtube App 2 using React</h1>
     </div>
   );
 }
