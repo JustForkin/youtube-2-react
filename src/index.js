@@ -1,15 +1,16 @@
 import React from "react";
-import ReactDOM from "react-dom";
-
-import "./styles.css";
+import { render } from "react-dom";
+import Button from "@material-ui/core/Button";
 
 function App() {
   return (
-    <div className="App">
-      <h1>Youtube App 2 using React</h1>
+    <div>
+      <Button variant="contained" color="primary">
+        Hello World
+      </Button>
     </div>
   );
 }
 
 const rootElement = document.getElementById("root");
-ReactDOM.render(<App />, rootElement);
+render(<App />, rootElement);
